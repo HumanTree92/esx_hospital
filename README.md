@@ -21,7 +21,9 @@ Nothing but ESX!!!
 
 # Other
 If you like this please check out some of my other stuff like
+* [esx_customui](https://github.com/HumanTree92/esx_customui)
 * [esx_hospital](https://github.com/HumanTree92/esx_hospital)
+* [esx_extraitems](https://github.com/HumanTree92/esx_extraitems)
 * [esx_aircraftshop](https://github.com/HumanTree92/esx_aircraftshop)
 * [esx_boatshop](https://github.com/HumanTree92/esx_boatshop)
 * [esx_eden_aircraftgarage](https://github.com/HumanTree92/esx_eden_aircraftgarage)
