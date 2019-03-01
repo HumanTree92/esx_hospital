@@ -10,8 +10,8 @@ local blips = {
     {name="Hospital", id=61, x = -874.79931640625, y = -307.5654296875, z = 38.580024719238, color= 2, heading=350.95, scale=1.0},
     {name="Hospital", id=61, x = -496.97717285156, y = -336.14242553711, z = 33.501697540283, color= 2, heading=253.92, scale=1.0},
     {name="Hospital", id=61, x = 298.70138549805, y = -584.62774658203, z = 42.260841369629, color= 2, heading=75.49, scale=1.0},
-    {name="Hospital", id=61, x = 1839.5194091797, y = 3672.591796875, z = 33.276710510254, color= 2, heading=214.90, scale=1.0},
-    {name="Hospital", id=61, x = -246.98889160156, y = 6330.5834960938, z = 31.426147460938, color= 2, heading=221.37, scale=1.0},
+    {name="Hospital", id=61, x = 1829.24, y = 3667.16, z = 33.28, color= 2, heading=214.90, scale=1.0}, -- Sandy Shores
+    {name="Hospital", id=61, x = -240.31, y = 6324.13, z = 31.43, color= 2, heading=221.37, scale=1.0}, -- Paleto Bay
 }
 
 ---------- FONCTIONS ----------
@@ -36,14 +36,14 @@ Citizen.CreateThread(function()
     end
 
     for _, item in pairs(blips) do
-        item.blip = AddBlipForCoord(item.x, item.y, item.z)
-        SetBlipSprite(item.blip, item.id)
-        SetBlipColour(item.blip, item.color)
-        SetBlipAsShortRange(item.blip, true)
-        SetBlipScale(item.blip, item.scale)
-        BeginTextCommandSetBlipName("STRING")
-        AddTextComponentString(item.name)
-        EndTextCommandSetBlipName(item.blip)
+        --item.blip = AddBlipForCoord(item.x, item.y, item.z)
+        --SetBlipSprite(item.blip, item.id)
+        --SetBlipColour(item.blip, item.color)
+        --SetBlipAsShortRange(item.blip, true)
+        --SetBlipScale(item.blip, item.scale)
+        --BeginTextCommandSetBlipName("STRING")
+        --AddTextComponentString(item.name)
+        --EndTextCommandSetBlipName(item.blip)
 
         CreatePed(4, 0xd47303ac, item.x, item.y, item.z, item.heading, false, true)
         SetEntityHeading(item.blip, item.heading)
