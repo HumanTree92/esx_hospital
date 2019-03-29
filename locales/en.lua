@@ -1,12 +1,9 @@
 Locales['en'] = {
-  -- client/main.lua
-  ['hospital_doc_treat'] = 'The doctor will treat you, please be patient.!',
-  ['hospital_no_treat'] = 'You dont need treatment.',
-  ['hospital_treat_comp'] = 'The doctor treated you.',
-  ['hospital_moved_away'] = 'You have moved away, the doctor could not heal you!',
-  ['hospital_menu_show'] = 'Press ~INPUT_VEH_HORN~ to be treated ~r~(~h~~g~$100~r~)',
-  -- server/main.lua
-  ['hospital_you_paid'] = 'You Paid $100',
-  ['hospital_not_enough'] = 'Not enough Money',
-  ['hospital_free'] = 'You Paid $0',
+  ['valid_purchase'] = 'validate this purchase?',
+  ['no'] = 'no',
+  ['yes'] = 'yes',
+  ['not_enough_money'] = 'you do not have enough money',
+  ['you_paid'] = 'you paid $%s',
+  ['press_access'] = 'press ~INPUT_CONTEXT~ to be treated for ~r~(~h~~g~$250~r~)',
+  ['blip_hospital'] = 'Medic',
 }
